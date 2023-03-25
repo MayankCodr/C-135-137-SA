@@ -1,0 +1,35 @@
+body{
+    background-size: cover;
+}
+.heading{
+    font-size: 23px;
+    margin: 0;
+    width: 100%;
+}
+#start, #number_of_objects, #status, .note{
+    font-size: 18px;
+}
+.copy_right_footer{
+    line-height: 3;
+    text-align: center;
+    position: fixed;
+    background-color: grey;
+    color: white;
+    bottom: 0;
+    width: 100%;
+}
+canvas{
+    border: 2px solid white;
+    border-radius: 10px;
+    margin-top: 130px;
+    box-shadow: 5px 5px 5px white;
+}
+input{
+    width: 400px;
+    height: 40px;
+    border: none;
+    margin-bottom: 5px;
+}
+input:focus{
+    border: 5px solid red;
+}
